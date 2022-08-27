@@ -1,0 +1,2 @@
+NAME      ATTEMP1    ATTEMP2      ATTEMP3     HIGH-SCORE
+Suman        4          0            0            4

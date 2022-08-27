@@ -1,0 +1,14 @@
+                   WELCOME  TO  THE GAME 
+     _____________________________________________
+     _____________________________________________
+                THE GAME CONSIST OF 10 MCQ QUESTION
+                    ENTER YOU CHOICE USING
+                A , B , C , D OF YOUR KEYBOARD
+        YOU WILL GET 3 ATTEMPS TO SCORE THE MAX POINTS
+
+                        BEST OF LUCK
+                    
+    _____________________________________________
+
+     > Press S to start the game          
+     > press Q to quit         

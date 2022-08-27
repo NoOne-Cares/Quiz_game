@@ -1,0 +1,60 @@
+ddaabadbdc
+1. Which of the following are not standard header files in C?
+A. stdio.h
+B. stdlib.h
+C. conio.h
+D. None of the above.
+
+2. Which of the following are correct file opening modes in C?
+A. r
+B. rb
+C. w
+D. All of the above.
+
+3. Which of the following are correct file opening modes in C?
+A. Pointer to a File object.
+B. Pointer to an inter.
+C. An integer.
+D. None of the above.
+
+4. Which of the following is not a storage class specifier in C?
+A. volatile
+B. extend
+C. typedef
+D. static
+
+5. Which of the following is not true about structs in C?
+A. No data hiding
+B. Functions are allowed inside struct.
+C. Constructors are not allowed inside struct.
+D. Cannot have static members in the structs.
+
+6. Which data structure is used to handle recursion in C?
+A. Stack
+B. Queue
+C. Ddeque
+D. Trees
+
+7. Which of the following will occur if we call the free() function on a NULL pointer?
+A. Compilation Error
+B. Runtime Error
+C. Undefined Error
+D. The Program will execute normally.
+
+8. Which header file should be included to use functions like malloc() and calloc()?
+A. memory.h
+B. stdlib.h
+C. string.h
+D. dos.h
+
+9. The keyword used to transfer control from a function back to the calling function is
+A. switch
+B. goto
+C. go back
+D. return
+
+10. int (*pf)(); declaration signify?
+A. pf is a pointer to function.
+B. pf is a function pointer.
+C. pf is a pointer to a function which return int
+D. pf is a function of pointer variable.
