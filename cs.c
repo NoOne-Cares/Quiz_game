@@ -5,6 +5,19 @@
 #include<string.h>
 #include<conio.h>
 
+char repeat(char a)
+{
+  printf("plese enter a valid input \n A , B , C , D \n");
+  a=tolower(getch());
+  if(a=='a'||a=='b'||a=='c'||a=='d')
+  {
+    return a;
+  }
+  else{
+      repeat(a);
+  }
+}
+
 int main()
 {
   FILE *file ,*wellocme,*scores;
@@ -49,7 +62,10 @@ int main()
           printf("%s", buffer);
           }
           answer[p]=tolower(getch());               //taking answer from the user
-          if(answer[p]==canswer[p])                 //comparing them with correct answers
+          loop: 
+          if(answer[p]=='a'||answer[p]=='b'||answer[p]=='c'||answer[p]=='d')
+          {
+            if(answer[p]==canswer[p])                 //comparing them with correct answers
             {
               printf("Correct answer\n\n");
               score++;
@@ -59,6 +75,11 @@ int main()
               }
             p++;
             highScore[q]=score;
+          }
+          else{
+            answer[p] = repeat(answer[p]);
+            goto loop;
+          }
         }
         q++;
         system("cls");
